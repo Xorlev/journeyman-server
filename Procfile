@@ -1,0 +1,1 @@
+web java $JAVA_OPTS -Ddw.http.port=$PORT -Ddw.http.adminPort=$PORT -Ddw.database.url=$DATABASE_URL -Ddw.database.user=$PGUSER -Ddw.database.password=$PGPASSWORD -jar journeyman-service/target/journeyman-service-1.0-SNAPSHOT.jar server heroku.yml
